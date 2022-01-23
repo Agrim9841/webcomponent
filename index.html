@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome 4 cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            font-family: 'Nunito', sans-serif;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1{
+            color: #f40d30;
+        }
+        .container{
+            width: 100%;
+            max-width: 700px;
+        }
+    </style>
+    <title>ToDo App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>My Tasks</h1>
+        <input-bar></input-bar>
+        <card-container></card-container>
+    </div>
+</body>
+<script src="./InputBar.js"></script>
+<script src="./ListCard.js"></script>
+<script src="./ToDoList.js"></script>
+<script src="./index.js"></script>
+</html>
